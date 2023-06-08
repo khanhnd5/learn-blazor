@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\EmployeeManagement.Models\EmployeeManagement.Models.csproj" />
     <ProjectReference Include="..\Shared\BlazorWebDemo.Shared.csproj" />
   </ItemGroup>
 

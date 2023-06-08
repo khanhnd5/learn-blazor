@@ -1,0 +1,12 @@
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\bin\Debug\net6.0\BlazorWebDemo.Shared.deps.json
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\bin\Debug\net6.0\BlazorWebDemo.Shared.dll
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\bin\Debug\net6.0\BlazorWebDemo.Shared.pdb
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.csproj.AssemblyReference.cache
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.AssemblyInfoInputs.cache
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.AssemblyInfo.cs
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.csproj.CoreCompileInputs.cache
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.dll
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\refint\BlazorWebDemo.Shared.dll
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\BlazorWebDemo.Shared.pdb
+D:\training\learn-blazor\BlazorWeb\BlazorWebDemo\Shared\obj\Debug\net6.0\ref\BlazorWebDemo.Shared.dll

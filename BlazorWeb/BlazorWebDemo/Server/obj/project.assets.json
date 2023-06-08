@@ -517,6 +517,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BlazorWebDemo.Shared": "1.0.0",
+          "EmployeeManagement.Models": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.16"
         },
         "compile": {
@@ -534,6 +535,16 @@
         },
         "runtime": {
           "bin/placeholder/BlazorWebDemo.Shared.dll": {}
+        }
+      },
+      "EmployeeManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
         }
       }
     }
@@ -1208,6 +1219,11 @@
       "type": "project",
       "path": "../Shared/BlazorWebDemo.Shared.csproj",
       "msbuildProject": "../Shared/BlazorWebDemo.Shared.csproj"
+    },
+    "EmployeeManagement.Models/1.0.0": {
+      "type": "project",
+      "path": "../../EmployeeManagement.Models/EmployeeManagement.Models.csproj",
+      "msbuildProject": "../../EmployeeManagement.Models/EmployeeManagement.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {

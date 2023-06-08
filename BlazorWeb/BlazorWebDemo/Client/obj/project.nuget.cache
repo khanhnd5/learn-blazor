@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SSCJp00/m5P9FRsM1q3mXWRfwpcLt3tsZYvdwQ2MssdHl3lX7xmHCQhcA1F44McubmIX+EQujNT8HgsnpGFq/Q==",
+  "dgSpecHash": "DQWx1FGlOHYgCS6rRotg5t5knV812sMEJ/vIPeB5dfCUxezkTmDc7V9SNbDS+eQXOCWavoJij9a1EGc01OiORQ==",
   "success": true,
   "projectFilePath": "D:\\training\\learn-blazor\\BlazorWeb\\BlazorWebDemo\\Client\\BlazorWebDemo.Client.csproj",
   "expectedPackageFiles": [

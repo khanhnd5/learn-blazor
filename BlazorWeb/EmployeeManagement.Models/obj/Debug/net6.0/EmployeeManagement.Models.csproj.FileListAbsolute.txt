@@ -1,0 +1,12 @@
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.deps.json
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.dll
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\bin\Debug\net6.0\EmployeeManagement.Models.pdb
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.AssemblyInfo.cs
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.dll
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\refint\EmployeeManagement.Models.dll
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\EmployeeManagement.Models.pdb
+D:\training\learn-blazor\BlazorWeb\EmployeeManagement.Models\obj\Debug\net6.0\ref\EmployeeManagement.Models.dll
