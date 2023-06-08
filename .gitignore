@@ -1,0 +1,9 @@
+BlazorWeb/.vs
+BlazorWeb/BlazorWebDemo/Client/bin
+BlazorWeb/BlazorWebDemo/Client/obj
+BlazorWeb/BlazorWebDemo/Server/bin
+BlazorWeb/BlazorWebDemo/Server/obj
+BlazorWeb/EmployeeManagement.Models/bin
+BlazorWeb/EmployeeManagement.Models/obj
+TodoApi/TodoApi/bin
+TodoApi/TodoApi/obj

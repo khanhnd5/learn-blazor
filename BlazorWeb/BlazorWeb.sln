@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33603.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebDemo.Server", "BlazorWebDemo\Server\BlazorWebDemo.Server.csproj", "{3DA1BC8B-E35C-4336-BE10-8D8F41117D4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebDemo.Server", "BlazorWebDemo\Server\BlazorWebDemo.Server.csproj", "{3DA1BC8B-E35C-4336-BE10-8D8F41117D4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebDemo.Client", "BlazorWebDemo\Client\BlazorWebDemo.Client.csproj", "{854C560E-3ADB-401A-AB5B-7CE386BF047A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebDemo.Client", "BlazorWebDemo\Client\BlazorWebDemo.Client.csproj", "{854C560E-3ADB-401A-AB5B-7CE386BF047A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebDemo.Shared", "BlazorWebDemo\Shared\BlazorWebDemo.Shared.csproj", "{2BC92710-CE22-4FDC-A77D-CDD007E04BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWebDemo.Shared", "BlazorWebDemo\Shared\BlazorWebDemo.Shared.csproj", "{2BC92710-CE22-4FDC-A77D-CDD007E04BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Models", "EmployeeManagement.Models\EmployeeManagement.Models.csproj", "{E37CCF57-D43C-4E39-8607-2A93A4218D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2BC92710-CE22-4FDC-A77D-CDD007E04BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC92710-CE22-4FDC-A77D-CDD007E04BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC92710-CE22-4FDC-A77D-CDD007E04BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37CCF57-D43C-4E39-8607-2A93A4218D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37CCF57-D43C-4E39-8607-2A93A4218D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37CCF57-D43C-4E39-8607-2A93A4218D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37CCF57-D43C-4E39-8607-2A93A4218D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
