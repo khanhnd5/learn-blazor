@@ -1,3 +1,4 @@
+using BlazorWebDemo.Server.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+
+builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7276/");
+});
 
 var app = builder.Build();
 
