@@ -1,4 +1,4 @@
-using BlazorWebDemo.Server.Services;
+using BlazorWebDemo.Client.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);

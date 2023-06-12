@@ -1,4 +1,4 @@
-﻿using BlazorWebDemo.Server.Services;
+﻿using BlazorWebDemo.Client.Services;
 using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;

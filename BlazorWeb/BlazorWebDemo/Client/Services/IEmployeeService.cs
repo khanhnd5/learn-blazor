@@ -1,6 +1,6 @@
 ﻿using EmployeeManagement.Models;
 
-namespace BlazorWebDemo.Server.Services
+namespace BlazorWebDemo.Client.Services
 {
     public interface IEmployeeService
     {
