@@ -1,7 +1,7 @@
 ﻿using EmployeeManagement.Models;
 using System.Net.Http.Json;
 
-namespace BlazorWebDemo.Server.Services
+namespace BlazorWebDemo.Client.Services
 {
     public class EmployeeService : IEmployeeService
     {

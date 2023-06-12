@@ -1,5 +1,5 @@
 using BlazorWebDemo.Client;
-using BlazorWebDemo.Server.Services;
+using BlazorWebDemo.Client.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -11,6 +11,11 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 builder.Services.AddTransient<IEmployeeService, EmployeeService>();
 
 builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7276/");
+});
+
+builder.Services.AddHttpClient<IDepartmentService, DepartmentService>(client =>
 {
     client.BaseAddress = new Uri("https://localhost:7276/");
 });
