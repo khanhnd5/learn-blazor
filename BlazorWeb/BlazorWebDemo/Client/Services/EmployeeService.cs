@@ -24,5 +24,10 @@ namespace BlazorWebDemo.Client.Services
         {
             return await httpClient.PutAsJsonAsync<Employee>($"api/employees/{updatedEmployee.EmployeeId}", updatedEmployee);
         }
+
+        public async Task<HttpResponseMessage> CreateEmployee(Employee newEmployee)
+        {
+            return await httpClient.PostAsJsonAsync<Employee>("api/employees", newEmployee);
+        }
     }
 }
