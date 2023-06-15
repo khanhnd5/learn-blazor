@@ -1,4 +1,5 @@
-﻿using BlazorWebDemo.Client.Services;
+﻿using BlazorWebDemo.Client.Components;
+using BlazorWebDemo.Client.Services;
 using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Components;
 
@@ -19,6 +20,8 @@ namespace BlazorWebDemo.Client.Pages
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
+
+        protected ConfirmBase DeleteConfirmation { get; set; }
 
         [Parameter]
         public string Id { get; set; }
@@ -58,6 +61,21 @@ namespace BlazorWebDemo.Client.Pages
 
             if (result.StatusCode == System.Net.HttpStatusCode.Created || result.StatusCode == System.Net.HttpStatusCode.OK)
             {
+                NavigationManager.NavigateTo("/");
+            }
+        }
+
+        protected async Task Delete_Click()
+        {
+            DeleteConfirmation.Show();
+        }
+
+        protected async Task ConfirmDelete_Click(bool deleteConfirmed)
+        {
+            if (deleteConfirmed)
+            {
+                await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+
                 NavigationManager.NavigateTo("/");
             }
         }

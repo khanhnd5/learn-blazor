@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Models;
+﻿using BlazorWebDemo.Client.Services;
+using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Components;
 
 namespace BlazorWebDemo.Client.Pages
