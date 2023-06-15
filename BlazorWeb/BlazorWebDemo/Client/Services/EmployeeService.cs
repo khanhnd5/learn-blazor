@@ -19,5 +19,10 @@ namespace BlazorWebDemo.Client.Services
         {
             return await httpClient.GetFromJsonAsync<Employee>($"api/employees/{id}");
         }
+
+        public async Task<HttpResponseMessage> UpdateEmployee(Employee updatedEmployee)
+        {
+            return await httpClient.PutAsJsonAsync<Employee>($"api/employees/{updatedEmployee.EmployeeId}", updatedEmployee);
+        }
     }
 }
