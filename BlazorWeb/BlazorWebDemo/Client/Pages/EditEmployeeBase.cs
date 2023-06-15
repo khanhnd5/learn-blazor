@@ -7,6 +7,7 @@ namespace BlazorWebDemo.Client.Pages
     public class EditEmployeeBase : ComponentBase
     {
         public Employee Employee { get; set; } = new Employee();
+
         public List<Department> Departments { get; set; } = new List<Department>();
 
         public string DepartmentId { get; set; }
@@ -23,18 +24,39 @@ namespace BlazorWebDemo.Client.Pages
         public string Id { get; set; }
         protected async override Task OnInitializedAsync()
         {
-            Employee = await EmployeeService.GetEmployee(int.Parse(Id));
+            int.TryParse(Id, out int employeeId);
+
+            if(employeeId != 0)
+            {
+                Employee = await EmployeeService.GetEmployee(int.Parse(Id));
+            }
+            else
+            {
+                Employee = new Employee
+                {
+                    DepartmentId = 1,
+                    DateOfBirth = DateTime.Now,
+                    PhotoPath = "images/nophoto.jpg"
+                };
+            }
+
             Departments = (await DepartmentService.GetDepartments()).ToList();
-            DepartmentId = Employee.DepartmentId.ToString();
         }
 
         protected async Task HandleValidSubmit()
         {
-            Employee.Department = await DepartmentService.GetDepartment(Employee.DepartmentId);
+            HttpResponseMessage result = null;
 
-            var result = await EmployeeService.UpdateEmployee(Employee);
+            if(Employee.EmployeeId != 0)
+            {
+               result = await EmployeeService.UpdateEmployee(Employee);
+            }
+            else
+            {
+                result = await EmployeeService.CreateEmployee(Employee);
+            }
 
-            if (result.StatusCode == System.Net.HttpStatusCode.OK)
+            if (result.StatusCode == System.Net.HttpStatusCode.Created || result.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 NavigationManager.NavigateTo("/");
             }
