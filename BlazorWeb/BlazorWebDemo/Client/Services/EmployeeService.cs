@@ -29,5 +29,10 @@ namespace BlazorWebDemo.Client.Services
         {
             return await httpClient.PostAsJsonAsync<Employee>("api/employees", newEmployee);
         }
+
+        public async Task DeleteEmployee(int id)
+        {
+            await httpClient.DeleteAsync($"api/employees/{id}");
+        }
     }
 }
